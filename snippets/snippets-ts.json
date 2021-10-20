@@ -1,0 +1,13 @@
+{
+  "styledComponent": {
+    "prefix": "styled",
+    "body": [
+      "import Styled from 'styled-components';",
+      "",
+      "export const Container = styled.div`",
+      "\t${1}",
+      "`"
+    ],
+    "description": "Create Container Styled Component"
+  }
+}

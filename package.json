@@ -1,0 +1,36 @@
+{
+  "name": "react-functional-snippets",
+  "version": "1.0.0",
+  "description": "a collection of functional snippets for react typescript",
+  "author": "Guilherme Santos",
+  "repository": "https://github.com/GuiSantos03/react-functional-snippets",
+  "license": "MIT",
+  "displayName": "React Functional Snippets TS",
+  "publisher": "Guilherme Santos",
+  "icon": "assets/react.png",
+  "galleryBanner": {
+    "color": "#3096FF",
+    "theme": "dark"
+  },
+  "engines": {
+    "vscode": "0.10.x"
+  },
+  "categories": [
+    "Snippets"
+  ],
+  "contributes": {
+    "snippets": [
+      {
+        "language": "typescript",
+        "path": "./snippets/snippets-ts.json"
+      },
+      {
+        "language": "typescriptreact",
+        "path": "./snippets/snippets.json"
+      }
+    ]
+  },
+  "devDependencies": {
+    "vsce": "^1.100.1"
+  }
+}
